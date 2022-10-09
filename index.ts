@@ -14,6 +14,7 @@ app.use(cors());
 
 app.use(express.json());
 
+
 app.get("/app/health-check", (req, res) => {
   res.json({ code: "0000", status: "success" });
 });
